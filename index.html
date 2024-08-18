@@ -1,0 +1,149 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Neel Dave</title>
+    <style>
+      body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      gap: 30px;
+      padding: 0 30px;
+      justify-content: center;
+      margin: 0;
+      background-color: #000000;
+    }
+    header {
+      position: sticky;
+      max-height: 600px;
+      top: 0;
+      background-color: #1d1d1e;
+      color: #ffffff;
+      border-radius: 20px;
+      padding: 25px;
+      text-align: left;
+      margin-top: 68px;
+      width: 30%;
+    }
+    section {
+      color: #fff;
+      width: 70%;
+    }
+
+    .project_list {
+      width: 100%;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    .project_header {
+      display: flex;
+    }
+    .project_detail {
+      margin-left: 5%;
+      display: flex;
+      flex-direction: column;
+    }
+    .project-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-right: 20px;
+    }
+    
+    .project-image.image-error {
+      background-color: #fff;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+    .project_card {
+      min-width: 800px;
+      background-color: #1d1d1e;
+      color: #ffffff;
+      border-radius: 20px;
+      padding: 20px;
+      text-align: left;
+      margin-bottom: 20px; /* Adds space between cards */
+    }
+    .project_links {
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      display: inline-block;
+      background-color: #fff;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+    .project_links a {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+      font-weight: medium;
+      text-align: center;
+      border: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    </style>
+  </head>
+  <body style="background-color: #000000;">
+  <header style="border: 1px solid #BF27E4;">
+    <img src="https://avatars.githubusercontent.com/u/73630019?v=4" alt="Neel Dave"  style="width:150px; height:150px; border-radius: 50%;">
+    <h1>neeldave9</h1>
+    <p>Final-year CS Student at QUT</p>
+    <a href="https://www.linkedin.com/in/neel-dave02/" target="_blank">Blog</a>
+  </header>
+  <section>
+    <h1 clss="project_title">Projects</h1>
+    <div class="project_list">
+      
+        <div class="project_card" style="border: 1px solid #BF27E4;">
+          <div class="project_header">
+          <img class="profile-image" src="https://picsum.photos/200" alt="Neel Dave" style="width: 100px; height:100px; border-radius: 12px;" onerror="this.onerror=null; this.src='default-avatar.png';">
+            <div class="project_detail">
+            <h3 class="project_name">litecrack-frontend</h3>
+            <p class="project_description">LiteCrack is a full-stack password-cracking application designed for scalability and user-friendliness. It utilizes John the Ripper for password cracking, leverages AWS services like EC2, S3, and SQS to manage tasks and traffic, and features a React front-end and Node.js back-end for a seamless user experience. 
+</p>
+            </div>
+          </div>
+          <button class="project_links">
+            <a href="https://github.com/neeldave9/litecrack-frontend" target="_blank">View Project</a>
+          </button>
+        </div>
+      
+        <div class="project_card" style="border: 1px solid #BF27E4;">
+          <div class="project_header">
+          <img class="profile-image" src="https://picsum.photos/200" alt="Neel Dave" style="width: 100px; height:100px; border-radius: 12px;" onerror="this.onerror=null; this.src='default-avatar.png';">
+            <div class="project_detail">
+            <h3 class="project_name">moodify-front-end</h3>
+            <p class="project_description">Moodify is a personalized music recommendation app that aims to curate music tailored to your mood and preferences, leveraging your music tastes and real-time weather data. Its features include weather-based music suggestions, customizable preferences for favorite artists and genres, and a user-friendly interface. 
+</p>
+            </div>
+          </div>
+          <button class="project_links">
+            <a href="https://github.com/neeldave9/moodify-front-end" target="_blank">View Project</a>
+          </button>
+        </div>
+      
+
+</section>
+<script src="script.js"></script>
+  </body>
+  </html>
+  
+
+  
